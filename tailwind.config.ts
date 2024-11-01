@@ -44,10 +44,13 @@ const config: Config = {
         "header-phone": "0 20px",
         "header-tablet": "0 40px",
         "header-desktop": "0 100px",
-        "buttons": "20px 25px",
+        "buttons": "10px 15px",
       },
       maxWidth: {
         "maximum": "1080px"
+      },
+      minHeight: {
+        "card": "360px"
       }
     },
   },
