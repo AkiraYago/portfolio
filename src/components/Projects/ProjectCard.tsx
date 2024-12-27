@@ -22,7 +22,7 @@ const ProjectCard = ({ title, description, coverImg, softwareStack, productionUR
       </section>
       <section className="grid gap-4 mt-4">
         <h3 className="font-bold text-white text-h3-phone md:text-h3-tablet lg:text-h3-desktop">{title}</h3>
-        <p className="text-white/70 h-32">{description}</p>
+        <p className="text-white/70 h-32 overflow-y-auto">{description}</p>
         <ul className="flex gap-4">
           {
             softwareStack.map(software =>
