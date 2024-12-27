@@ -38,8 +38,8 @@ const config: Config = {
         "buttons": "18px",
       },
       padding: {
-        "section-phone": "20px 40px",
-        "section-tablet": "20px 60px",
+        "section-phone": "20px 20px",
+        "section-tablet": "40px 20px",
         "section-desktop": "40px 100px",
         "header-phone": "0 20px",
         "header-tablet": "0 40px",
