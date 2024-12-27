@@ -8,23 +8,25 @@ interface Props {
 
 const Projects = ({ projects }: Props) => {
   return (
-    <div id="projects">
-      <SectionTitle title="Projects" />
-      <div className="flex flex-wrap justify-center gap-8 p-section-phone md:p-section-tablet lg:p-section-desktop">
-        {
-          projects.map(project =>
-            <ProjectCard
-              key={`project-card-${project.id}`}
-              title={project.name}
-              description={project.description}
-              coverImg={project.coverImg}
-              softwareStack={project.softwareStack}
-              productionURL={project.productionURL}
-            />
-          )
-        }
+    <section id="projects" className="pt-16">
+      <div className="flex flex-col gap-24 p-section-phone md:p-section-tablet lg:p-section-desktop">
+        <SectionTitle title="Projects" />
+        <div className="flex flex-wrap justify-center gap-8">
+          {
+            projects.map(project =>
+              <ProjectCard
+                key={`project-card-${project.id}`}
+                title={project.name}
+                description={project.description}
+                coverImg={project.coverImg}
+                softwareStack={project.softwareStack}
+                productionURL={project.productionURL}
+              />
+            )
+          }
+        </div>
       </div>
-    </div>
+    </section>
   )
 }
 
