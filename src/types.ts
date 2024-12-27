@@ -15,9 +15,19 @@ export interface Experience {
   softwareStack: Software[]
 }
 
+export interface Project {
+  id: number
+  name: string
+  coverImg: string
+  productionURL: string
+  description: string
+  softwareStack: Software[]
+}
+
 export interface PortfolioData {
   name: string
   role: string
   about: string
   experience: Experience[]
+  projects: Project[]
 }

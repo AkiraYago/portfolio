@@ -95,5 +95,85 @@ export const data = {
         },
       ],
     }
+  ],
+  projects: [
+    {
+      id: 1,
+      name: "Netflix Home Clone",
+      coverImg: "/imgs/projects/netflix-home.png",
+      productionURL: "https://the-movies-home.netlify.app/",
+      description: "Design and develop a responsive Netflix Home Clone using TheMovieDB API to get data. You can explore all upcoming movies and your prefer genres.",
+      softwareStack: [
+        {
+          id: 1,
+          icon: "/icons/software/vite.svg",
+          name: "ViteJS",
+        },
+        {
+          id: 2,
+          icon: "/icons/software/react.svg",
+          name: "ReactJS",
+        },
+        {
+          id: 3,
+          icon: "/icons/software/js.svg",
+          name: "Javascript",
+        },
+        {
+          id: 4,
+          icon: "/icons/software/bootstrap.svg",
+          name: "Bootstrap 5",
+        },
+        {
+          id: 5,
+          icon: "/icons/software/figma.svg",
+          name: "Figma",
+        },
+        {
+          id: 6,
+          icon: "/icons/software/git.svg",
+          name: "Git",
+        },
+      ],
+    },
+    {
+      id: 2,
+      name: "YagoStore",
+      coverImg: "/imgs/projects/yagostore.png",
+      productionURL: "https://yagostore.netlify.app/",
+      description: "Design and develop a responsive e-commerce demo using FakeStore API. You can enjoy the experience of buy online products like others e-commerce websites and don't worry about money, in YagoStore you can get all products for free.",
+      softwareStack: [
+        {
+          id: 1,
+          icon: "/icons/software/vite.svg",
+          name: "ViteJS",
+        },
+        {
+          id: 2,
+          icon: "/icons/software/react.svg",
+          name: "ReactJS",
+        },
+        {
+          id: 3,
+          icon: "/icons/software/js.svg",
+          name: "Javascript",
+        },
+        {
+          id: 4,
+          icon: "/icons/software/bootstrap.svg",
+          name: "Bootstrap 5",
+        },
+        {
+          id: 5,
+          icon: "/icons/software/figma.svg",
+          name: "Figma",
+        },
+        {
+          id: 6,
+          icon: "/icons/software/git.svg",
+          name: "Git",
+        },
+      ],
+    },
   ]
 }
