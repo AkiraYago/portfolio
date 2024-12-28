@@ -19,7 +19,7 @@ const About = () => {
           <Link title="LinkedIn" href="https://www.linkedin.com/in/yagoellen/" className="bg-c-dblue border border-white w-fit p-2 rounded-md">
             <Image src="./icons/linkedin.svg" alt="icon" width={40} height={40} />
           </Link>
-          <Link title="CV" href="https://drive.google.com/file/d/1dveK7p_b6n-JLUWgdoMeyyua2xwlFP3D/view?usp=sharing" className="bg-c-dblue border border-white w-fit p-2 rounded-md">
+          <Link title="Curriculum" href="https://drive.google.com/drive/folders/12QjxpRUhqNEbNsiSYFjxiI-kKza7LEKJ?usp=sharing" className="bg-c-dblue border border-white w-fit p-2 rounded-md">
             <Image src="./icons/cv.svg" alt="icon" width={40} height={40} />
           </Link>
         </div>
