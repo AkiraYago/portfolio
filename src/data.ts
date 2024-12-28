@@ -5,11 +5,47 @@ export const data = {
   experience: [
     {
       id: 1,
+      coverImg: "/imgs/experience/recambios-cover-img.png",
+      role: "Front End Developer React",
+      company: "RECAMBIOS",
+      websiteURL: "https://recambios-viaweb-front.onrender.com/home",
+      dates: "OCT 2024 - Present",
+      description: "Develop and refactor assigned projects alongside a team of developers and testers.",
+      softwareStack: [
+        {
+          id: 1,
+          icon: "/icons/software/vite.svg",
+          name: "ViteJS",
+        },
+        {
+          id: 2,
+          icon: "/icons/software/react.svg",
+          name: "ReactJS",
+        },
+        {
+          id: 3,
+          icon: "/icons/software/js.svg",
+          name: "Javascript",
+        },
+        {
+          id: 4,
+          icon: "/icons/software/material-ui.svg",
+          name: "Material UI",
+        },
+        {
+          id: 5,
+          icon: "/icons/software/git.svg",
+          name: "Git",
+        },
+      ],
+    },
+    {
+      id: 2,
       coverImg: "/imgs/experience/modificars-cover-img.png",
       role: "Web Developer React",
       company: "MODIFI-CARS",
       websiteURL: "https://modifi-cars.com/",
-      dates: "SEP 2024 - Present",
+      dates: "AGO 2024 - OCT 2024",
       description: "Design and develop a website for automovile modification, customization and repair workshop.",
       softwareStack: [
         {
@@ -45,7 +81,7 @@ export const data = {
       ],
     },
     {
-      id: 2,
+      id: 3,
       coverImg: "/imgs/experience/tecsis-cover-img.png",
       role: "Web Developer Wordpress",
       company: "TECSIS INGENIERIA S.A.",
