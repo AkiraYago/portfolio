@@ -5,11 +5,118 @@ export const data = {
   experience: [
     {
       id: 1,
+      coverImg: "/imgs/experience/yobbix.jpg",
+      role: "Front End Developer React",
+      company: "Yobbix (BeCode project)",
+      websiteURL: "",
+      dates: "MAR 2025 - APR 2025",
+      description: "Develop login page for recruiting company that provides services of recruitment and selection of personnel in Guatemala using AI.",
+      softwareStack: [
+        {
+          id: 1,
+          icon: "/icons/software/vite.svg",
+          name: "ViteJS",
+        },
+        {
+          id: 2,
+          icon: "/icons/software/react.svg",
+          name: "ReactJS",
+        },
+        {
+          id: 3,
+          icon: "/icons/software/tailwind.svg",
+          name: "Tailwind CSS",
+        },
+        {
+          id: 4,
+          icon: "/icons/software/git.svg",
+          name: "Git",
+        },
+        {
+          id: 5,
+          icon: "/icons/software/redux.svg",
+          name: "Redux Toolkit",
+        },
+        {
+          id: 6,
+          icon: "/icons/software/js.svg",
+          name: "Javascript",
+        },
+      ],
+    },
+    {
+      id: 2,
+      coverImg: "/imgs/experience/lacampana.jpg",
+      role: "Full Stack Developer - MERN",
+      company: "LACAMPANA (BeCode project)",
+      websiteURL: "",
+      dates: "DEC 2024 - MAR 2025",
+      description: "Develop a e-commerce website for a Colombian company that sells and distributes steel products.",
+      softwareStack: [
+        {
+          id: 1,
+          icon: "/icons/software/vite.svg",
+          name: "ViteJS",
+        },
+        {
+          id: 2,
+          icon: "/icons/software/react.svg",
+          name: "ReactJS",
+        },
+        {
+          id: 3,
+          icon: "/icons/software/tailwind.svg",
+          name: "Tailwind CSS",
+        },
+        {
+          id: 4,
+          icon: "/icons/software/git.svg",
+          name: "Git",
+        },
+        {
+          id: 5,
+          icon: "/icons/software/redux.svg",
+          name: "Redux Toolkit",
+        },
+        {
+          id: 6,
+          icon: "/icons/software/expressjs.svg",
+          name: "ExpressJS",
+        },
+        {
+          id: 7,
+          icon: "/icons/software/mongodb.svg",
+          name: "MongoDB",
+        },
+        {
+          id: 8,
+          icon: "/icons/software/nodejs.svg",
+          name: "NodeJS",
+        },
+        {
+          id: 9,
+          icon: "/icons/software/js.svg",
+          name: "Javascript",
+        },
+        {
+          id: 10,
+          icon: "/icons/software/daisyui.svg",
+          name: "DaisyUI",
+        },
+        {
+          id: 11,
+          icon: "/icons/software/postman.svg",
+          name: "Postman",
+        },
+      ],
+    },
+    {
+      id: 3,
       coverImg: "/imgs/experience/recambios-cover-img.png",
       role: "Front End Developer React",
-      company: "RECAMBIOS",
+      company: "RECAMBIOS (BeCode project)",
       websiteURL: "https://recambios-viaweb-front.onrender.com/home",
-      dates: "OCT 2024 - Present",
+      dates: "OCT 2024 - DEC 2024",
       description: "Develop and refactor assigned projects alongside a team of developers and testers.",
       softwareStack: [
         {
@@ -40,7 +147,7 @@ export const data = {
       ],
     },
     {
-      id: 2,
+      id: 4,
       coverImg: "/imgs/experience/modificars-cover-img.png",
       role: "Web Developer React",
       company: "MODIFI-CARS",
@@ -81,7 +188,7 @@ export const data = {
       ],
     },
     {
-      id: 3,
+      id: 5,
       coverImg: "/imgs/experience/tecsis-cover-img.png",
       role: "Web Developer Wordpress",
       company: "TECSIS INGENIERIA S.A.",
