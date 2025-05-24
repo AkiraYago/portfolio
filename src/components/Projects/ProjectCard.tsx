@@ -1,17 +1,10 @@
-import { Software } from "@/types"
+import { type Project } from "@/types"
 import SoftwareItem from "../_common/SoftwareItem"
 import Image from "next/image"
 import Link from "next/link"
+import { getSoftwareIcon, getSoftwareName } from "@/helpers"
 
-interface Props {
-  title: string
-  description: string
-  coverImg: string
-  softwareStack: Software[]
-  productionURL: string
-}
-
-const ProjectCard = ({ title, description, coverImg, softwareStack, productionURL }: Props) => {
+const ProjectCard = ({ id ,name, description, coverImg, softwareStack, productionURL }: Project) => {
   return (
     <article className="bg-c-blue p-4 rounded-lg border max-w-[500px]">
       <section className="relative h-fit">
@@ -21,15 +14,15 @@ const ProjectCard = ({ title, description, coverImg, softwareStack, productionUR
         </div>
       </section>
       <section className="grid gap-4 mt-4">
-        <h3 className="font-bold text-white text-h3-phone md:text-h3-tablet lg:text-h3-desktop">{title}</h3>
+        <h3 className="font-bold text-white text-h3-phone md:text-h3-tablet lg:text-h3-desktop">{name}</h3>
         <p className="text-white/70 h-32 overflow-y-auto">{description}</p>
         <ul className="flex flex-wrap gap-2 lg:gap-4">
           {
             softwareStack.map(software =>
               <SoftwareItem
-                key={`software-item-${software.id}`}
-                name={software.name}
-                icon={software.icon}
+                key={`software-item-${software}`}
+                name={getSoftwareName(software)}
+                icon={getSoftwareIcon(software)}
               />
             )
           }

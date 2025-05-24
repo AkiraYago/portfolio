@@ -1,6 +1,6 @@
 import SectionTitle from "@/components/_common/SectionTitle"
 import ProjectCard from "@/components/Projects/ProjectCard"
-import { Project } from "@/types"
+import { type Project } from "@/types"
 
 interface Props {
   projects: Project[]
@@ -16,7 +16,8 @@ const Projects = ({ projects }: Props) => {
             projects.map(project =>
               <ProjectCard
                 key={`project-card-${project.id}`}
-                title={project.name}
+                id={project.id}
+                name={project.name}
                 description={project.description}
                 coverImg={project.coverImg}
                 softwareStack={project.softwareStack}
