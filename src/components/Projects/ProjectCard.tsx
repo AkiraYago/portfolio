@@ -20,7 +20,7 @@ const ProjectCard = ({ id ,name, description, coverImg, softwareStack, productio
           {
             softwareStack.map(software =>
               <SoftwareItem
-                key={`software-item-${software}`}
+                key={`software-item-${id}-${software}`}
                 name={getSoftwareName(software)}
                 icon={getSoftwareIcon(software)}
               />
