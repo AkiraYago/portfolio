@@ -1,7 +1,7 @@
 export interface Software {
-  id: number
-  icon: string
+  id: string
   name: string
+  category: string
 }
 
 export interface Experience {
@@ -12,7 +12,7 @@ export interface Experience {
   websiteURL: string
   dates: string
   description: string
-  softwareStack: Software[]
+  softwareStack: string[]
 }
 
 export interface Project {
@@ -21,7 +21,7 @@ export interface Project {
   coverImg: string
   productionURL: string
   description: string
-  softwareStack: Software[]
+  softwareStack: string[]
 }
 
 export interface PortfolioData {
