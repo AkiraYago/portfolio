@@ -1,6 +1,6 @@
 import SectionTitle from "@/components/_common/SectionTitle"
 import ExpCard from "@/components/Experience/ExpCard"
-import { Experience as Exp } from "@/types"
+import { type Experience as Exp } from "@/types"
 
 interface Props {
   experienceData: Exp[] | undefined
@@ -16,6 +16,7 @@ const Experience = ({ experienceData = [] }: Props) => {
             experienceData.map(experience =>
               <ExpCard
                 key={`exp-card-${experience.id}`}
+                id={experience.id}
                 coverImg={experience.coverImg}
                 role={experience.role}
                 company={experience.company}
