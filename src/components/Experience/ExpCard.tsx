@@ -28,7 +28,7 @@ const ExpCard = ({ id, coverImg, role, company, websiteURL, dates, description, 
           <p className="text-white/70">
             {description}
           </p>
-          <ul className="flex flex-wrap gap-2 lg:gap-4">
+          <ul className="flex flex-wrap gap-2">
             {softwareStack.map(software =>
               <li key={`software-item-${id}-${software}`}>
                 <SoftwareItem

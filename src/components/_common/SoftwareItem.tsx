@@ -7,8 +7,9 @@ interface Props {
 
 const SoftwareItem = ({ name, icon }: Props) => {
   return (
-    <article className="p-2 bg-c-dblue rounded-md border w-fit" title={name}>
-      <Image className="w-[30px] lg:w-[40px]" src={icon} alt="icon" width={40} height={40} />
+    <article className="flex gap-1 items-center p-2 bg-c-blue/60 rounded-md shadow-md w-fit text-white" title={name}>
+      <Image src={icon} alt="icon" width={20} height={20} />
+      <p className="text-sm">{name}</p>
     </article>
   )
 }
